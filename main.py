@@ -1,3 +1,5 @@
+from automato import *
+
 # Exemplo de uso:
 estados = {'A', 'B', 'C'}
 estado_inicial = 'A'
