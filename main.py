@@ -25,6 +25,10 @@ transicoes = formatar_transicoes(lista_de_transicoes)
 # print(transicoes)
 
 automato = AutomatoFinito(estados, estado_inicial, estados_finais, transicoes)
+palavra_teste = input("Insira uma palavra para verificar:")
 
-palavra_teste = 'ab'
-print(automato.reconhecer_palavra(palavra_teste))
+resultado = automato.reconhecer_palavra(palavra_teste)
+if automato.reconhecer_palavra(palavra_teste) == True:
+    print("A palavra é reconhecida")
+else:
+    print("A palavra não é reconhecida")    

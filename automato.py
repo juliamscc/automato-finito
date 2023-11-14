@@ -12,7 +12,6 @@ class AutomatoFinito:
             if (estado_atual, simbolo) in self.transicoes:
                 estado_atual = self.transicoes[(estado_atual, simbolo)]
             else:
-                # Se não houver transição, a palavra não é reconhecida
                 return False
 
         # Verificar se o estado atual é um estado final
