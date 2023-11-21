@@ -9,7 +9,7 @@ BCC/UESPI: Bloco VII
 
 ## ▶️ Como usar
 ### 1- Para rodar o código: <br>
-- O código já tem definidos uma gramática e uma palavra de teste;
+- O código já tem uma gramática definida;
 - Para rodar, execute o arquivo <strong>main.py</strong>;
 - Aparecerá o imput: "<strong>Insira uma palavra para verificar: </strong>", então digite a palavra desejada.
 > Para escolher outra gramática, altere o arquivo a ser lido na <strong>linha 13</strong> no arquivo <strong>main.py</strong>.
