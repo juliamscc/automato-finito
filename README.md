@@ -23,8 +23,7 @@ BCC/UESPI: Bloco VII
   - Na linha 1, informe os estados separando-os com espaços;
   - Na linha 2, informe o estado inicial;
   - Na linha 3, informe os estados finais separando-os com espaços;
-  - A cada nova linha, informe as transições seguindo o modelo: <<em>estado-atual</em>> <<em>caractere-lido</em>>:<<em>próximo estado</em>>
-  - A cada nova linha, informe as transições seguindo o modelo <strong>A a:B</strong>, sendo:
+  - A cada nova linha, informe as transições seguindo o modelo <strong>A a-B</strong>, sendo:
     - A: estado atual;
     - a: caractere lido;
     - B: próximo estado. 
